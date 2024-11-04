@@ -1,0 +1,7 @@
+Run 0
+Initial parameters: {'epsilon': 0.24322963892624022, 'agents': 0.7005498818639944}
+Baseline score: 0.05162221437992433 +/- 0.012312168793315184
+Best parameters: {'agents': np.float64(0.7005498818639944), 'epsilon': np.float64(0.24322963892624022)}
+Optimizer score: 0.06959383550984656 +/- 0.01530864212680845
+Significant difference detected!
+

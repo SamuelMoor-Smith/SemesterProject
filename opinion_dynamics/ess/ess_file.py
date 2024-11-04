@@ -2,6 +2,18 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
+# lrscale - Placement on left right scale
+# imwbcnt - Immigrants make country worse or better place to live
+# imbgeco - Immigration bad or good for country's economy
+# trstun  - Trust in the United Nations
+# trstplc - Trust in the police
+# pplfair - Most people try to take advantage of you, or try to be fair
+
+# _ESSFILE = ESSFile('opinion_dynamics/ess/combined-sept26.csv', 'imbgeco')
+
+# x, y = _ESSFILE.get_xy(scale=5, adjust=1)
+# _ESSFILE.plot_y_data(y)
+
 class ESSFile:
 
     def __init__(self, filename, key):
@@ -40,7 +52,7 @@ class ESSFile:
         data = np.where(data > 1, 1 - (data - 1), data)
         return data
 
-    def get_xy(self, scale=10, adjust=0):
+    def get_xy(self, scale=1, adjust=0):
         """
         Create dataset where each year's data (except the last year) 
         is the input X and the direct next year's data is the target Y.

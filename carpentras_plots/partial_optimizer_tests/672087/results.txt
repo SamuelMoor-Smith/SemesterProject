@@ -1,0 +1,7 @@
+Run 2
+Initial parameters: {'mobility_max': 0.46729286851670837, 'mobility_min': 0.46729286851670837, 'flip_prob': 0.4708233334096711, 'shift_amount': 0.3913624657083508, 'iterations': 0.9377193440063386}
+Baseline score: 0.1027749070262151 +/- 0.013180582747273907
+Best parameters: {'iterations': np.float64(0.9377193440063386), 'mobility_max': np.float64(0.057412166427941044), 'shift_amount': np.float64(0.3913624657083508)}
+Optimizer score: 2.0583530164352104 +/- 0.02600312584993834
+Significant difference detected!
+

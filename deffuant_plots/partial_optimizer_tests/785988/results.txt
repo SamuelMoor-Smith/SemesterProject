@@ -1,0 +1,7 @@
+Run 6
+Initial parameters: {'mu': 0.07288717743808715, 'epsilon': 0.4619788834409999, 'iterations': 0.5283450377906989}
+Baseline score: 0.035085851512134655 +/- 0.002860637943382825
+Best parameters: {'epsilon': np.float64(0.4619788834409999), 'iterations': np.float64(0.5283450377906989), 'mu': np.float64(0.07288717743808715)}
+Optimizer score: 0.05135923631815574 +/- 0.006151252469095429
+Significant difference detected!
+

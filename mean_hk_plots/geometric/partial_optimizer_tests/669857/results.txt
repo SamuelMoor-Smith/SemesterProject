@@ -1,0 +1,7 @@
+Run 6
+Initial parameters: {'epsilon': 0.4835839802809692}
+Baseline score: 0.0 +/- 0.0
+Best parameters: {'epsilon': np.float64(0.4835839802809692)}
+Optimizer score: 0.0014836561687583986 +/- 0.0
+Significant difference detected!
+
